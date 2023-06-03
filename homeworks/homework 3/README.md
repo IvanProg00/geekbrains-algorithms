@@ -9,7 +9,7 @@ The red-black tree has the following criteria:
 - The root of the tree is always black
 - The new node is always red
 - Red nodes can only be the left child
-- At the crane node, all children are black
+- At the red node, all children are black
 
 Accordingly, in order for these conditions to be met, after adding an element to
 the tree, it is necessary to perform balancing, thanks to which all the criteria
