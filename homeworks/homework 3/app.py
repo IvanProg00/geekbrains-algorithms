@@ -69,11 +69,8 @@ class BinaryTree:
 
         return node
 
-    # TODO: change to one line
     def is_red(self, node):
-        if node is None:
-            return False
-        return node.color == RED
+        return node is not None and node.color == RED
 
     def rotate_left(self, node):
         new_root = node.right
